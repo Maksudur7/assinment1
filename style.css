@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 p{
     color: rgba(39, 39, 39, 0.60);
@@ -12,19 +16,16 @@ header{
     width: 100%;
 }
 .header-container{
-  
     margin: 0px 170px;
     padding-top: 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .header-container-dettles{
     height: 100%;
     width: 50%;
 }
 .header-container-dettles h1{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 800;
 }
 .header-container-dettles p{
@@ -35,8 +36,8 @@ header{
 
 .header-container-dettles img{
     width: 550;
-    height: 587px;
-    margin-left: 40px;
+    height: 593px;
+    margin-left: 50px;
 }
 .btn{
     padding: 15px 30px;
@@ -44,6 +45,36 @@ header{
     color: white;
     border: none;
     border-radius: 8px;
+}
+.about-contant{
+    display: flex;
+    text-align: center;
+}
+.about-contant-dettles{
+    display: flex;
+    height: 380px;
+    width: 600px;
+}
+.about-contant-dettles-show{
+    width: 450px;
+}
+.about-contant-dettles-imgStyle{
+    height: 200px;
+    width: 180px;
+    background-color: rgba(85, 84, 84, 0.288);
+    margin: 10px;
+}
+.about-contant-dettles-imgStyle img{
+    height: 160px;
+    width: 280px;
+    margin: 20px 0 0 20px;
+}
+.about-sizing2{
+    margin-top: 175px;
+    margin-left: -130px;
+}
+.about-sizing{
+    margin-left: -372px;
 }
 .our-flowers{
     text-align: center;
@@ -78,7 +109,7 @@ header{
     background-color: rgba(71, 125, 17, 0.15);
 }
 .flower-support{
-    width: 333px;
+    width: 343px;
     height: 100%;
     padding: 50px;
     text-align: center;
@@ -88,7 +119,7 @@ header{
 }
 .support{
     display: flex;
-    margin: 100px -20px 0 20px;
+    margin: 100px -20px 0 15px;
     background-color: rgba(39, 39, 39, 0.05);
 }
 .discount{
@@ -115,16 +146,15 @@ header{
     margin-left:10px;
 }
 .background-artical{
+    margin: 100px 0 50px 0;
     margin-left: 15px;
     width: 1010px;
     height: 349px;
     background-image: url('./Rectangle\ 9.png');
-    text-align: center;
-    align-items: center;
     border-radius: 5px;
+    display: inline-block;
 }
 .background-artical h2{
-    margin-top: 122px;
     padding-top: 122px;
 }
 .background-artical input{
