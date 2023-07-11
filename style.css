@@ -158,10 +158,11 @@ header{
     padding-top: 122px;
 }
 .background-artical input{
-    height: 25px;
+    height: 37px;
     padding: 5px;
     width: 500px;
     border: none;
+    border-radius: 5px;
 }
 .background-artical p{
     margin: 10px 0 20px 0;
